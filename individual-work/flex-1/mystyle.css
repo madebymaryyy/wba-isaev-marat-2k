@@ -1,0 +1,20 @@
+.flex-container{
+    background-color: DodgerBlue;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.logo{
+   background-image: url("./logo.png");
+}
+
+body{
+    background-image: url("./Cosmic-Gradient-14.jpg");
+    background-size: cover;
+    
+}
