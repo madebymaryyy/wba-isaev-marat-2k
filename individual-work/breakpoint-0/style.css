@@ -1,0 +1,12 @@
+.breakpoint {
+    background-color: green;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .breakpoint {
+        background-color: yellow;
+    }
+}
+
