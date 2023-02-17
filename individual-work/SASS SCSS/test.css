@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(48, 21, 98);
+}
+body nav p {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+}
+body .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 1440px;
+  height: 250px;
+  gap: 5px;
+}
+body .grid-container .photos {
+  width: 500px;
+  height: 400px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+body .grid-container .photos img:hover {
+  opacity: 0.5;
+  transition: 0.7s;
+}/*# sourceMappingURL=test.css.map */

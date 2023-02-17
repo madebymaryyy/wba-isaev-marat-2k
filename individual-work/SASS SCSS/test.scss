@@ -1,0 +1,30 @@
+body
+{
+    nav p {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        color: aliceblue;
+    }
+
+    .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 1440px;
+    height: 250px;
+    gap: 5px;
+
+    .photos {
+    width: 500px;
+    height: 400px;
+    object-fit:fill;
+
+    img:hover {
+        opacity: .5;
+        transition: 0.7s;
+    }
+    }
+    }
+    background-color: rgb(48, 21, 98);
+}
