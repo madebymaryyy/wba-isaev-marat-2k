@@ -1,0 +1,192 @@
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.header-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-right: 50px;
+}
+
+.nav-item {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  size: 18px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  background-color: #7C7474;
+  font-size: 110%;
+}
+
+.container {
+  background-color: #CBC1B1;
+}
+
+.logo {
+  padding-left: 82px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.main {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 112px;
+  text-align: center;
+  width: 100%;
+}
+
+.covid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.prubeh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.sale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.doc1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.doc2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.doc3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.covid a, .prubeh a, .sale a, .doc1 a, .doc2 a, .doc3 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.footer {
+  background-color: #CBC1B1;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+}
+
+@media screen and (min-width: 1024px) {
+  .hlavicka {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-desktop {
+    display: none;
+  }
+  .hlavicka {
+    height: 90px;
+  }
+  .header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+  }
+  .logo-mobile img {
+    width: 75px;
+    height: 75px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-top: 4rem;
+    gap: 30px;
+  }
+  .covid, .prubeh, .sale, .doc1, .doc2, .doc3 {
+    flex: 1;
+  }
+  .covid img {
+    width: 50px;
+    height: 50px;
+  }
+  .prubeh img {
+    width: 50px;
+    height: 50px;
+  }
+  .sale img {
+    width: 50px;
+    height: 50px;
+  }
+  .doc1 img {
+    width: 50px;
+    height: 50px;
+  }
+  .doc2 img {
+    width: 50px;
+    height: 50px;
+  }
+  .doc3 img {
+    width: 50px;
+    height: 50px;
+  }
+  .footer {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    bottom: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
